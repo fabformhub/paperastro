@@ -7,43 +7,69 @@ import { SITE_DESCRIPTION, SITE_TITLE } from '../consts';
 
 <!doctype html>
 <html lang="en">
-	<head>
-		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
-	</head>
-	<body>
-		<Header />
-		<main>
-			<h1>🧑‍🚀 Hello, Astronaut!</h1>
-			<p>
-				Welcome to the official <a href="https://astro.build/">Astro</a> blog starter template. This template
-				serves as a lightweight, minimally-styled starting point for anyone looking to build a personal
-				website, blog, or portfolio with Astro.
-			</p>
-			<p>
-				This template comes with a few integrations already configured in your
-				<code>astro.config.mjs</code> file. You can customize your setup with
-				<a href="https://astro.build/integrations">Astro Integrations</a> to add tools like Tailwind,
-				React, or Vue to your project.
-			</p>
-			<p>Here are a few ideas on how to get started with the template:</p>
-			<ul>
-				<li>Edit this page in <code>src/pages/index.astro</code></li>
-				<li>Edit the site header items in <code>src/components/Header.astro</code></li>
-				<li>Add your name to the footer in <code>src/components/Footer.astro</code></li>
-				<li>Check out the included blog posts in <code>src/content/blog/</code></li>
-				<li>Customize the blog post page layout in <code>src/layouts/BlogPost.astro</code></li>
-			</ul>
-			<p>
-				Have fun! If you get stuck, remember to
-				<a href="https://docs.astro.build/">read the docs</a>
-				or <a href="https://astro.build/chat">join us on Discord</a> to ask questions.
-			</p>
-			<p>
-				Looking for a blog template with a bit more personality? Check out
-				<a href="https://github.com/Charca/astro-blog-template">astro-blog-template</a>
-				by <a href="https://twitter.com/Charca">Maxi Ferreira</a>.
-			</p>
-		</main>
-		<Footer />
-	</body>
+  <head>
+    <BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+  </head>
+  <body>
+    <Header />
+
+    <main class="container padding-large">
+
+      <h1 class="text-center paper">Welcome to PaperAstro</h1>
+
+      <p class="paper">
+        PaperAstro is a lightweight, professional starter template built with Astro and styled
+        entirely using PaperCSS. It provides a clean, sketch‑inspired aesthetic while maintaining
+        strong performance, clarity, and simplicity.
+      </p>
+
+      <p class="paper">
+        This template is designed for developers who want a minimal, well‑structured foundation
+        for blogs, documentation sites, or small content‑driven projects. PaperAstro keeps the
+        design approachable and distinctive without adding unnecessary complexity.
+      </p>
+
+      <h2 class="paper">Features</h2>
+
+      <ul class="paper">
+        <li>Clean, minimal layout powered by Astro</li>
+        <li>Sketch‑style UI using PaperCSS</li>
+        <li>MDX support for rich content</li>
+        <li>RSS and Sitemap integrations included</li>
+        <li>Image optimization via Sharp</li>
+        <li>Built‑in form handling through Fabform.io</li>
+      </ul>
+
+      <h2 class="paper">Getting Started</h2>
+
+      <p class="paper">
+        To begin customizing this template, edit the files inside the <code>src</code> directory.
+        The structure is intentionally simple, making it easy to adapt the layout, add pages,
+        or integrate additional Astro features.
+      </p>
+
+      <ul class="paper">
+        <li>Modify this page at <code>src/pages/index.astro</code></li>
+        <li>Add new routes inside <code>src/pages/</code></li>
+        <li>Update global settings in <code>src/consts.ts</code></li>
+        <li>Extend layouts or components as needed</li>
+      </ul>
+
+      <h2 class="paper">Resources</h2>
+
+      <ul class="paper">
+        <li><a href="https://docs.astro.build/">Astro Documentation</a></li>
+        <li><a href="https://www.getpapercss.com/">PaperCSS Documentation</a></li>
+        <li><a href="https://fabform.io">Fabform.io</a> for form handling</li>
+      </ul>
+
+      <p class="paper text-center">
+        PaperAstro provides a focused, reliable starting point for your next project.
+      </p>
+
+    </main>
+
+    <Footer />
+  </body>
 </html>
+
