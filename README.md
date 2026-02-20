@@ -1,62 +1,109 @@
-# Astro Starter Kit: Blog
+Here’s a clean, professional **README.md** updated to mention **Fabform** and link to **https://fabform.io**, while keeping the tone consistent and free of emojis.
 
-```sh
-npm create astro@latest -- --template blog
+If you want, I can also tailor the wording to match your brand voice even more closely — but this version is already polished and ready to drop into GitHub.
+
+---
+
+# **README.md (Professional, No Emojis, Includes Fabform)**
+
+```markdown
+# PaperAstro
+
+PaperAstro is a lightweight, professional Astro starter template styled with PaperCSS.  
+It provides a clean, sketch‑inspired aesthetic while maintaining strong performance, clarity, and simplicity.
+
+This template includes built‑in support for form handling through Fabform.  
+Learn more at: https://fabform.io
+
+---
+
+## Features
+
+- Built with Astro 5
+- Styled entirely with PaperCSS (no custom CSS required)
+- MDX support included
+- RSS and Sitemap integrations
+- Sharp for image optimization
+- Native form handling powered by Fabform
+- Minimal, well‑structured project layout
+- Suitable for blogs, documentation, and lightweight content sites
+
+---
+
+## Installation
+
+Use the official Astro CLI:
+
+```bash
+npm create astro@latest -- --template fabformhub/paperastro
 ```
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+Or clone the repository manually:
 
-Features:
+```bash
+git clone https://github.com/fabformhub/paperastro
+cd paperastro
+npm install
+npm run dev
+```
 
-- ✅ Minimal styling (make it your own!)
-- ✅ 100/100 Lighthouse performance
-- ✅ SEO-friendly with canonical URLs and OpenGraph data
-- ✅ Sitemap support
-- ✅ RSS Feed support
-- ✅ Markdown & MDX support
+---
 
-## 🚀 Project Structure
+## Project Structure
 
-Inside of your Astro project, you'll see the following folders and files:
-
-```text
+```
+/
 ├── public/
 ├── src/
-│   ├── components/
-│   ├── content/
-│   ├── layouts/
-│   └── pages/
-├── astro.config.mjs
-├── README.md
-├── package.json
-└── tsconfig.json
+│   ├── components/
+│   ├── layouts/
+│   ├── pages/
+│   ├── consts.ts
+│   └── styles/
+└── package.json
 ```
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
+---
 
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
+## Commands
 
-The `src/content/` directory contains "collections" of related Markdown and MDX documents. Use `getCollection()` to retrieve posts from `src/content/blog/`, and type-check your frontmatter using an optional schema. See [Astro's Content Collections docs](https://docs.astro.build/en/guides/content-collections/) to learn more.
+```bash
+npm run dev       # Start the development server
+npm run build     # Build the site for production
+npm run preview   # Preview the production build
+```
 
-Any static assets, like images, can be placed in the `public/` directory.
+---
 
-## 🧞 Commands
+## Form Handling with Fabform
 
-All commands are run from the root of the project, from a terminal:
+PaperAstro includes ready‑to‑use form integration powered by Fabform.  
+You can easily connect any form to Fabform by adding your endpoint URL.
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
+Learn more at: https://fabform.io
 
-## 👀 Want to learn more?
+---
 
-Check out [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+## Customization
 
-## Credit
+PaperAstro is intentionally minimal.  
+You can extend it by adding:
 
-This theme is based off of the lovely [Bear Blog](https://github.com/HermanMartinus/bearblog/).
+- Custom layouts
+- Additional PaperCSS components
+- Astro integrations
+- Markdown or MDX content
+
+---
+
+## License
+
+MIT License  
+© {year} Geoffrey Callaghan
+
+---
+
+## Repository
+
+GitHub: https://github.com/fabformhub/paperastro
+```

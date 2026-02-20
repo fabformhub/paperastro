@@ -1,7 +1,10 @@
 {
   "name": "paper-astro",
-  "type": "module",
   "version": "0.0.1",
+  "type": "module",
+  "description": "A lightweight Astro starter template styled with PaperCSS.",
+  "author": "Geoffrey Callaghan",
+  "license": "MIT",
   "scripts": {
     "dev": "astro dev",
     "build": "astro build",
@@ -16,3 +19,4 @@
     "sharp": "^0.34.3"
   }
 }
+
